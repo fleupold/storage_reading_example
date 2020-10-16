@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "@gnosis.pm/util-contracts": "^2.0.7",
+    "truffle": "^5.1.48"
+  }
+}
