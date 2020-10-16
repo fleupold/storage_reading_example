@@ -12,7 +12,7 @@ contract ExternalReaderContract {
     }
 
     function invokeExtension() public returns (uint) {
-        uint result = abi.decode(
+        uint foo = abi.decode(
             instance.simulateDelegatecall(
                 address(extension), 
                 abi.encodeWithSignature("getFoo()")
